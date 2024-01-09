@@ -5,4 +5,10 @@
 //  Created by Cyril Lewis on 09/01/2024.
 //
 
-import Foundation
+public struct Slidatech {
+    
+    public static func helloMessage() {
+        
+        print("Hello All Again")
+    }
+}
