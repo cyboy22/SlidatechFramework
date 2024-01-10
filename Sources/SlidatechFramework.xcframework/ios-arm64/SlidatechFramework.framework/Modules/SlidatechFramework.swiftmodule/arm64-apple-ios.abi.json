@@ -1,0 +1,55 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "Slidatech",
+        "printedName": "Slidatech",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "helloMessage",
+            "printedName": "helloMessage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18SlidatechFramework0A0V12helloMessageyyFZ",
+            "mangledName": "$s18SlidatechFramework0A0V12helloMessageyyFZ",
+            "moduleName": "SlidatechFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18SlidatechFramework0A0V",
+        "mangledName": "$s18SlidatechFramework0A0V",
+        "moduleName": "SlidatechFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/cyril.lewis\/Documents\/XCode\/Framework\/SlidatechFramework\/SlidatechFramework\/Slidatech.swift",
+      "kind": "StringLiteral",
+      "offset": 166,
+      "length": 17,
+      "value": "\"Hello All Again\""
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+framework module SlidatechFramework {
+  umbrella header "SlidatechFramework.h"
+  export *
+
+  module * { export * }
+}
+
+module SlidatechFramework.Swift {
+  header "SlidatechFramework-Swift.h"
+  requires objc
+}
